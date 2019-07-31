@@ -2,17 +2,17 @@ body::-webkit-scrollbar {
   width: 6px;
 }
 
-/* Track */
 body::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 
-/* Handle */
 body::-webkit-scrollbar-thumb {
   background: #22776A;
   border-radius: 10px;
 }
 
+/* Track */
+/* Handle */
 html {
   font-family: 'PT Sans', sans-serif;
 }
@@ -1221,12 +1221,7 @@ div.main_page div.about div.landing_page .me div.about_me_links ul li a {
   width: 17px;
 }
 
-div.main_page div.about div.landing_page .me div.about_me_links ul li a:nth-child(1):hover {
-  color: white;
-  transition: 1s;
-}
-
-div.main_page div.about div.landing_page .me div.about_me_links ul li a:nth-child(2):hover {
+div.main_page div.about div.landing_page .me div.about_me_links ul li a:nth-child(1):hover, div.main_page div.about div.landing_page .me div.about_me_links ul li a:nth-child(2):hover {
   color: white;
   transition: 1s;
 }
@@ -1468,6 +1463,9 @@ div.main_page div.sMtwo .fa-file:hover {
   div.landing_parent .landing_background .landing_info {
     height: 49%;
   }
+  div.info_wrapper {
+    zoom: 118%;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -1493,13 +1491,7 @@ div.main_page div.sMtwo .fa-file:hover {
   div.landing_parent div.landing_background .landing_info .timer_parent {
     display: none;
   }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .personal {
-    display: none;
-  }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .arrows {
-    display: none;
-  }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_extra_info {
+  div.landing_parent div.landing_background .landing_info .info .info_wrapper .personal, div.landing_parent div.landing_background .landing_info .info .info_wrapper .arrows, div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_extra_info {
     display: none;
   }
   div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_responsive {
@@ -1552,13 +1544,7 @@ div.main_page div.sMtwo .fa-file:hover {
   div.project .works ul li:nth-child(2) {
     background-size: 126% !important;
   }
-  div.project .works ul li .pro_info .ruth .r_links {
-    padding: 4px 15px !important;
-  }
-  div.project .works ul li .pro_info .central .c_links {
-    padding: 4px 15px !important;
-  }
-  div.project .works ul li .pro_info .tempus .t_links {
+  div.project .works ul li .pro_info .ruth .r_links, div.project .works ul li .pro_info .central .c_links, div.project .works ul li .pro_info .tempus .t_links {
     padding: 4px 15px !important;
   }
 }
@@ -1587,13 +1573,7 @@ div.main_page div.sMtwo .fa-file:hover {
   div.landing_parent div.landing_background .landing_info .timer_parent {
     display: none;
   }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .personal {
-    display: none;
-  }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .arrows {
-    display: none;
-  }
-  div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_extra_info {
+  div.landing_parent div.landing_background .landing_info .info .info_wrapper .personal, div.landing_parent div.landing_background .landing_info .info .info_wrapper .arrows, div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_extra_info {
     display: none;
   }
   div.landing_parent div.landing_background .landing_info .info .info_wrapper .landing_responsive {
@@ -1650,10 +1630,7 @@ div.main_page div.sMtwo .fa-file:hover {
   div.main_page .nav nav .links ul {
     padding: 0;
   }
-  div.main_page .nav nav .links ul li:nth-child(1) {
-    display: none;
-  }
-  div.main_page .nav nav .links ul li:nth-child(2) {
+  div.main_page .nav nav .links ul li:nth-child(1), div.main_page .nav nav .links ul li:nth-child(2) {
     display: none;
   }
   div.main_page .nav nav .links ul li:nth-child(4) {
@@ -1760,10 +1737,7 @@ div.main_page div.sMtwo .fa-file:hover {
     width: 70% !important;
     left: 17% !important;
   }
-  div.responsive_text {
-    display: none !important;
-  }
-  div.responsive_photo {
+  div.responsive_text, div.responsive_photo {
     display: none !important;
   }
   div.landing_info {
@@ -1791,13 +1765,7 @@ div.main_page div.sMtwo .fa-file:hover {
   div.main_page .project .works .project_ul li:nth-child(2) {
     background-size: 168% !important;
   }
-  div.main_page .project .works .project_ul li .pro_info .ruth .r_links {
-    padding: 4px 18px !important;
-  }
-  div.main_page .project .works .project_ul li .pro_info .central .c_links {
-    padding: 4px 18px !important;
-  }
-  div.main_page .project .works .project_ul li .pro_info .tempus .t_links {
+  div.main_page .project .works .project_ul li .pro_info .ruth .r_links, div.main_page .project .works .project_ul li .pro_info .central .c_links, div.main_page .project .works .project_ul li .pro_info .tempus .t_links {
     padding: 4px 18px !important;
   }
 }
