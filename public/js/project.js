@@ -8,6 +8,9 @@ $('i.project_display_exit').on('click',(e)=>{
     transition:'1s',
     display:"none"
   })
+  $('body').css({
+    overflow:"unset"
+  })
 })
 
 var $imgsArray = [];
@@ -35,7 +38,9 @@ $smallJobs.on('click',(e)=>{
   for(let i= 0; i < $smallJobs.length; i++){
     $imgsArray.push($smallJobs[i])
   }
-
+ $('body').css({
+   overflow:"hidden"
+ })
   console.log("this is smallJobs button")
 })
 
