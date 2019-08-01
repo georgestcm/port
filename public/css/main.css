@@ -737,12 +737,20 @@ div.main_page div.project_display div.project_display_wrapper_ {
 }
 
 div.main_page div.project_display div.project_display_wrapper_ i.project_display_exit {
-  margin: 15px 15px 0 0;
-  position: fixed;
-  left: 87.3%;
-  top: 27px;
+  position: absolute;
   color: #22776A;
   cursor: pointer;
+  top: 11px;
+  left: 97%;
+  padding: 6px 8px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+div.main_page div.project_display div.project_display_wrapper_ i.project_display_exit:hover {
+  transition: 1s;
+  background-color: #22776A;
+  color: white;
 }
 
 div.main_page div.project_display div.project_display_wrapper_ div.project_photos {
@@ -759,12 +767,13 @@ div.main_page div.project_display div.project_display_wrapper_ div.project_photo
 }
 
 div.main_page div.project_display div.project_display_wrapper_ div.project_photos .left i.project_display_left {
-  position: relative;
-  top: 50%;
-  font-size: 25px;
+  font-size: 20px;
   color: #22776A;
-  left: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
 }
 
 div.main_page div.project_display div.project_display_wrapper_ div.project_photos .right {
@@ -775,17 +784,18 @@ div.main_page div.project_display div.project_display_wrapper_ div.project_photo
 }
 
 div.main_page div.project_display div.project_display_wrapper_ div.project_photos .right i.project_display_right {
-  position: relative;
-  top: 50%;
-  font-size: 25px;
+  font-size: 20px;
   color: #22776A;
-  left: 1px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
 }
 
 div.main_page div.project_display div.project_display_wrapper_ div.project_photos .photo {
   height: 98%;
-  width: 93.6%;
+  width: 94%;
   display: inline-block;
   text-align: center;
   position: relative;
