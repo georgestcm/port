@@ -1314,6 +1314,19 @@ div {
   }
 }
 
+@media screen and (max-width:1224px){
+    div.main_page div.project_display div.project_display_wrapper_ i.project_display_exit {
+      top: 9px;
+        left: 95%;
+    }
+}
+
+@media screen and (max-width:1023px){
+  .pro_info .pro_info_temp .pro_temp_links a:nth-child(2) {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 767px) and (max-width: 1000px) {
   div {
     &.landing_parent div.landing_background .landing_info {
