@@ -26,7 +26,33 @@ var $smalljobsImg = [
 ];
 var $churchImgs = [];
 var $joshuaImgs = [];
-var $kmer = [];
+var $kmerImgs = [];
+var count = 0;
+$(".project_display_right").on('click',(e)=>{
+if(count ===7){
+  count = 0;
+} else {
+  ++count;
+}
+$('#project_pics').attr("src",$imgsArray[count])
+})
+
+//above is the code for the right click
+//////////////
+/////////////
+////////////
+$(".project_display_left").on('click',(e)=>{
+  if(count ===0){
+    count = 7;
+  } else {
+    --count;
+  }
+  $('#project_pics').attr("src",$imgsArray[count])
+})
+//above is the code for the left click
+//////////////
+/////////////
+////////////
 
 
 $smallJobs.on('click',(e)=>{
@@ -35,14 +61,18 @@ $smallJobs.on('click',(e)=>{
     transition:'1s',
     display:"block"
   })
-  for(let i= 0; i < $smallJobs.length; i++){
-    $imgsArray.push($smallJobs[i])
+
+  for(let i= 0; i < $smalljobsImg.length; i++){
+    $imgsArray.push($smalljobsImg[i])
   }
  $('body').css({
    overflow:"hidden"
  })
-  console.log("this is smallJobs button")
+
+$('#project_pics').attr("src",$imgsArray[count])
 })
+
+
 
 
  $kmer.on('click',(e)=>{
