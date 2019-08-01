@@ -501,6 +501,8 @@ div {
           textarea {
             width: 60%;
             resize: none;
+            border-radius: 3px;
+            border: 1px solid darkgray;
           }
           input[type="submit"] {
             width: 15%;
@@ -1623,6 +1625,7 @@ div {
       width: 300px !important;
       form input[type="submit"] {
         font-size: 10px;
+        padding: 0;
       }
     }
     &.main_page {
@@ -1652,6 +1655,7 @@ div {
       margin-left: 0 !important;
     }
   }
+
 }
 
 @media screen and (min-height: 1020px) and (max-height: 2024px) {

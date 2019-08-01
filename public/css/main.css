@@ -572,6 +572,8 @@ div.modal div.modal_background .modal_content form input {
 div.modal div.modal_background .modal_content form textarea {
   width: 60%;
   resize: none;
+  border-radius: 3px;
+  border: 1px solid darkgray;
 }
 
 div.modal div.modal_background .modal_content form input[type="submit"] {
@@ -1768,6 +1770,7 @@ div.main_page div.sMtwo .fa-file:hover {
   }
   div.modal .modal_background .modal_content form input[type="submit"] {
     font-size: 10px;
+    padding: 0;
   }
   div.main_page .nav nav .links ul li a {
     font-size: 70%;
