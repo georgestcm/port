@@ -17,5 +17,5 @@
 const Route = use('Route')
 
 Route.on('/').render('index')
-Route.post('/user',"UserController.store")
+Route.post('/message',"UserController.store")
 Route.any('*',"renderController.renderError")
