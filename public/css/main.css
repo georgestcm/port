@@ -479,6 +479,7 @@ body {
 .landing_parent .nav_parent ul li a {
   text-decoration: none;
   font-size: 17px;
+  font-weight: 900;
   color: #22776A;
 }
 
@@ -1476,7 +1477,7 @@ div.main_page div.sMtwo .fa-file:hover {
     height: 49%;
   }
   div.info_wrapper {
-    zoom: 118%;
+    zoom: 127%;
   }
 }
 
